@@ -1,0 +1,10 @@
+<p>The first component is connected to the main component and works fine!</p>
+<div class="component-body">
+  <h3>Leading front end frameworks are :</h3>
+  <ul>
+    <li (click)="onSelect(technology)" *ngFor="let technology of technologies">
+      <span>{{ technology.name }}</span>
+    </li>
+  </ul>
+  <p>Choose one to know more.</p>
+</div>

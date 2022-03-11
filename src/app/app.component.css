@@ -1,0 +1,20 @@
+span a {
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+  padding: 0.7rem;
+}
+.navbar {
+  justify-content: space-between;
+}
+span {
+  padding-right: 1rem;
+}
+span a:hover {
+  background-color: ghostwhite;
+  color: #3f51b5;
+  border-radius: 5px;
+}
+.selected {
+  border-bottom: solid white 2px;
+}

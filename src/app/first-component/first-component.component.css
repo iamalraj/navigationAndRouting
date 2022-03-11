@@ -1,0 +1,29 @@
+span {
+  display: inline-block;
+  border-radius: 5px;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(179, 179, 180, 0.815);
+}
+li {
+  padding-bottom: 10px;
+}
+ul {
+  list-style: none;
+}
+.component-body {
+  margin-left: 10px;
+}
+span:hover {
+  cursor: pointer;
+  opacity: 80%;
+  size: 1.1rem;
+}
+button {
+  display: inline-block;
+  border: none;
+  padding: 10px 30px;
+  text-decoration: none;
+}
